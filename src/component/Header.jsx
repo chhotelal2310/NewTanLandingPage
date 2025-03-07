@@ -18,10 +18,13 @@ export const Header = () => {
           display: "flex",
           flexDirection: "row",
           justifyContent: "space-between",
-          padding: "0px 40px 0px 40px",
+          padding:{
+            xs:'18px 10px 18px 10px',
+            sm: "18px 40px 18px 40px",
+
+          },
           alignItems: "center",
           backgroundColor: "#000000",
-          paddingY: "18px",
         }}
       >
         <Box
