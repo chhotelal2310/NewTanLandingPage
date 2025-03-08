@@ -115,6 +115,12 @@ export const HeroSection = () => {
               xs: "45%",
               sm: "25%",
             },
+            animation: "jumpAndScale 2.5s infinite ease-in-out",
+            "@keyframes jumpAndScale": {
+              "0%": { transform: "translateY(0px) scale(1)" },
+              "50%": { transform: "translateY(-20px) scale(1.1)" },
+              "100%": { transform: "translateY(0px) scale(1)" },
+            },
           }}
         />
         <Box
