@@ -18,13 +18,15 @@ export const Header = () => {
           display: "flex",
           flexDirection: "row",
           justifyContent: "space-between",
-          padding:{
-            xs:'18px 10px 18px 10px',
+          padding: {
+            xs: '18px 10px 18px 10px',
             sm: "18px 40px 18px 40px",
 
           },
           alignItems: "center",
           backgroundColor: "#000000",
+          position:'fixed',
+          width:'100%'
         }}
       >
         <Box
@@ -38,20 +40,20 @@ export const Header = () => {
             variant="square"
             sx={{
               backgroundColor: "#000000",
-              height:'100%'
+              height: '100%'
             }}
           >
             <img src={logo} style={{
-              width:'80%',
-              height:'80%'
+              width: '80%',
+              height: '80%'
             }} />
           </Avatar>
           <Typography
             variant="h4"
             sx={{
               color: "#ffffff",
-              fontWeight:500,
-              fontFamily:'Noto Serif Thai'
+              fontWeight: 500,
+              fontFamily: 'Noto Serif Thai'
             }}
           >
             TAN
@@ -68,7 +70,7 @@ export const Header = () => {
               sm: "40px",
               md: "60px",
             },
-           
+
           }}
         >
           <Link
@@ -120,34 +122,34 @@ export const Header = () => {
             "&:hover": {
               background: "linear-gradient(180deg, #D83779 0%, #8B3F42 100%)",
             },
-            display:{
-              xs:'none',
-              md:'block'
+            display: {
+              xs: 'none',
+              md: 'block'
             },
-            fontFamily:'Roboto'
+            fontFamily: 'Roboto'
           }}
           disableElevation
         >
           Join the community
         </Button>
         <ToggleButton value="justify" key="justify" sx={{
-          display:{
-            md:'none',
-          }, 
-         padding:'0px'
-          
+          display: {
+            md: 'none',
+          },
+          padding: '0px'
 
-          
+
+
         }}>
           <FormatAlignJustifyIcon sx={{
-            color:'white',
-            fontSize:{
-              xs:30,
-              sm:35
+            color: 'white',
+            fontSize: {
+              xs: 30,
+              sm: 35
             }
           }} />
         </ToggleButton>
-        
+
       </Box>
     </>
   );
