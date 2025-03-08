@@ -6,8 +6,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 const App = () => {
   return (
     <>
-      <Header />
       <BrowserRouter>
+      <Header />
         <Routes>
           <Route path="/" element={<TanHomePage />} />
         </Routes>
