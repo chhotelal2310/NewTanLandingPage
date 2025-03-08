@@ -4,7 +4,10 @@ import Tancoin from "../assets/Tanimage/Tancoin.png";
 
 export const HeroSection = () => {
   return (
-    <Box>
+    <Box sx={{
+      background: "linear-gradient(to bottom,rgb(109, 6, 51) 5%, #000000 100%)",
+      width: "100%",
+    }}>
       <Box
         sx={{
           placeItems: "center",
@@ -17,7 +20,6 @@ export const HeroSection = () => {
             sm:'200px'
           },
           background: "linear-gradient(to bottom,rgb(109, 6, 51) 5%, #000000 100%)",
-          // /background: "linear-gradient(to bottom, #CA386F 5%, #000000 100%)",
           width: "100%",
         }}
       >
@@ -63,6 +65,8 @@ export const HeroSection = () => {
           </Typography>
         </Box>
       </Box>
+
+
       <Box
         sx={{
           display: "flex",
@@ -70,6 +74,7 @@ export const HeroSection = () => {
           alignItems: "center",
           justifyContent: "center",
           backgroundColor: " #000000",
+          width:'100%'
         }}
       >
         <Typography
@@ -161,6 +166,7 @@ export const HeroSection = () => {
           </Typography>
         </Box>
       </Box>
+
     </Box>
   );
 };

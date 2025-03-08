@@ -27,7 +27,6 @@ export const Header = () => {
           },
           alignItems: "center",
           backgroundColor: "#000000",
-          position:'fixed',
           width:'100%'
         }}
       >
