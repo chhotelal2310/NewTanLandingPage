@@ -5,7 +5,7 @@ export const HeroSection = () => {
   return (
     <Box sx={{
         placeItems:'center',
-        paddingTop:'200px',
+        paddingTop:'250px',
         paddingBottom:'200px'
     }}>
       <Box
@@ -17,6 +17,9 @@ export const HeroSection = () => {
       >
         <Typography variant="h3" sx={{
             fontWeight:800,
+            fontSize:{
+              xs:'35px',
+            },
             fontFamily:'Roboto',
             textAlign:'center',
 
@@ -24,9 +27,12 @@ export const HeroSection = () => {
         <Typography variant="subtitle1" sx={{
             textAlign:'center',
             wordBreak:'break-word',
-            fontSize:'25px',
+            fontSize:{
+              xs:'20px',
+              sm:'25px'
+            },
             fontWeight:600,
-            lineHeight:'35px',
+            lineHeight:{xs:'30px',sm:'35px'},
             marginTop:'10px',
             fontFamily:'Roboto'
 
