@@ -8,9 +8,15 @@ export const HeroSection = () => {
       <Box
         sx={{
           placeItems: "center",
-          paddingTop: "200px",
-          paddingBottom: "120px",
-          background: "linear-gradient(to bottom, #3f1326 5%, #000000 100%)",
+          paddingTop:{
+            xs:'200px',
+            sm:'250px'
+          },
+          paddingBottom:{
+            xs:'120px',
+            sm:'200px'
+          },
+          background: "linear-gradient(to bottom,rgb(109, 6, 51) 5%, #000000 100%)",
           // /background: "linear-gradient(to bottom, #CA386F 5%, #000000 100%)",
           width: "100%",
         }}
@@ -86,7 +92,7 @@ export const HeroSection = () => {
               xs: "35px",
               sm: "50px",
             },
-            marginBottom: "30px",
+            marginBottom: "40px",
             px: "20px",
           }}
         >
@@ -109,10 +115,17 @@ export const HeroSection = () => {
         <Box
           sx={{
             display: "flex",
+            flexDirection:{
+              xs:'column',
+              sm:'row'
+            },
             justifyContent: "center",
             alignItems: "center",
-            gap: "15px",
-            marginTop: "20px",
+            gap:{
+              xs:'5px',
+              sm:'15px'
+            },
+            marginTop: "40px",
           }}
         >
           <Typography
@@ -136,6 +149,11 @@ export const HeroSection = () => {
               fontWeight: 700,
               maxWidth: "478px",
               color: "white",
+              paddingX:'20px',
+              textAlign:{
+                xs:'center',
+                sm:'start'
+              }
             }}
           >
             $TAN is the native utility token of Tarality and serves as the
