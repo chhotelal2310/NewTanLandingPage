@@ -8,11 +8,11 @@ export const HeroSection = () => {
       <Box
         sx={{
           placeItems: "center",
-          paddingTop: "250px",
-          paddingBottom: "200px",
+          paddingTop: "200px",
+          paddingBottom: "120px",
           background: "linear-gradient(to bottom, #3f1326 5%, #000000 100%)",
           width: "100%",
-          height: "100vh",
+          
         }}
       >
         <Box
