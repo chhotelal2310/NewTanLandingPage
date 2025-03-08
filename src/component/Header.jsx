@@ -15,6 +15,8 @@ export const Header = () => {
     <>
       <Box
         sx={{
+          position:'fixed',
+          top:0,
           display: "flex",
           flexDirection: "row",
           justifyContent: "space-between",
