@@ -11,8 +11,8 @@ export const HeroSection = () => {
           paddingTop: "200px",
           paddingBottom: "120px",
           background: "linear-gradient(to bottom, #3f1326 5%, #000000 100%)",
+          // /background: "linear-gradient(to bottom, #CA386F 5%, #000000 100%)",
           width: "100%",
-          
         }}
       >
         <Box
@@ -62,8 +62,8 @@ export const HeroSection = () => {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-          justifyContent:'center',
-          backgroundColor:' #000000'
+          justifyContent: "center",
+          backgroundColor: " #000000",
         }}
       >
         <Typography
@@ -75,20 +75,19 @@ export const HeroSection = () => {
             maxWidth: "800px",
             fontWeight: 600,
             fontFamily: "Roboto",
-            fontSize:{
-              xs:'25px',
-              sm:'35px',
-              md:'40px'
-
-            } ,
+            fontSize: {
+              xs: "25px",
+              sm: "35px",
+              md: "40px",
+            },
             textAlign: "center",
             wordBreak: "break-word",
-            lineHeight:{
-              xs:'35px',
-              sm:'50px'
+            lineHeight: {
+              xs: "35px",
+              sm: "50px",
             },
             marginBottom: "30px",
-            px:'20px'
+            px: "20px",
           }}
         >
           Introducing the most liquid, scarce, and valuable token
@@ -97,8 +96,14 @@ export const HeroSection = () => {
           component="img"
           src={Tancoin}
           sx={{
-            width: "25%",
-            height: "25%",
+            width: {
+              xs: "45%",
+              sm: "25%",
+            },
+            height: {
+              xs: "45%",
+              sm: "25%",
+            },
           }}
         />
         <Box
@@ -130,7 +135,7 @@ export const HeroSection = () => {
               fontFamily: "Roboto",
               fontWeight: 700,
               maxWidth: "478px",
-              color:'white'
+              color: "white",
             }}
           >
             $TAN is the native utility token of Tarality and serves as the
