@@ -4,7 +4,7 @@ import Tancoin from "../assets/Tanimage/Tancoin.png";
 
 export const HeroSection = () => {
   return (
-    <>
+    <Box>
       <Box
         sx={{
           placeItems: "center",
@@ -161,6 +161,6 @@ export const HeroSection = () => {
           </Typography>
         </Box>
       </Box>
-    </>
+    </Box>
   );
 };
