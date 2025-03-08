@@ -6,7 +6,11 @@ export const HeroSection = () => {
     <Box sx={{
         placeItems:'center',
         paddingTop:'250px',
-        paddingBottom:'200px'
+        paddingBottom:'200px',
+        background: "linear-gradient(to bottom, #3f1326 5%, #000000 100%)",
+        width:'100%',
+        height:'100vh'
+      
     }}>
       <Box
         sx={{
@@ -22,6 +26,7 @@ export const HeroSection = () => {
             },
             fontFamily:'Roboto',
             textAlign:'center',
+            color:'white'
 
         }}>Welcome to TAN</Typography>
         <Typography variant="subtitle1" sx={{
@@ -34,7 +39,11 @@ export const HeroSection = () => {
             fontWeight:600,
             lineHeight:{xs:'30px',sm:'35px'},
             marginTop:'10px',
-            fontFamily:'Roboto'
+            fontFamily:'Roboto',
+            color:'white',
+            background: "linear-gradient(to bottom, #DC4D8B, #E0736A)",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
 
         }}>
           The leading platform for innovative apps and blockchain network
