@@ -1,25 +1,30 @@
-import { Typography, Box } from "@mui/material";
+import { Typography, Box, Button } from "@mui/material";
 import React from "react";
 import Tancoin from "../assets/Tanimage/Tancoin.png";
+import TanbuttonImag from "../assets/Tanimage/TanbuttonIamge.png";
 
 export const HeroSection = () => {
   return (
-    <Box sx={{
-      background: "linear-gradient(to bottom,rgb(109, 6, 51) 5%, #000000 100%)",
-      width: "100%",
-    }}>
+    <Box
+      sx={{
+        background:
+          "linear-gradient(to bottom,rgb(109, 6, 51) 5%, #000000 100%)",
+        width: "100%",
+      }}
+    >
       <Box
         sx={{
           placeItems: "center",
-          paddingTop:{
-            xs:'200px',
-            sm:'250px'
+          paddingTop: {
+            xs: "200px",
+            sm: "250px",
           },
-          paddingBottom:{
-            xs:'120px',
-            sm:'200px'
+          paddingBottom: {
+            xs: "120px",
+            sm: "200px",
           },
-          background: "linear-gradient(to bottom,rgb(109, 6, 51) 5%, #000000 100%)",
+          background:
+            "linear-gradient(to bottom,rgb(109, 6, 51) 5%, #000000 100%)",
           width: "100%",
         }}
       >
@@ -66,7 +71,6 @@ export const HeroSection = () => {
         </Box>
       </Box>
 
-
       <Box
         sx={{
           display: "flex",
@@ -74,7 +78,7 @@ export const HeroSection = () => {
           alignItems: "center",
           justifyContent: "center",
           backgroundColor: " #000000",
-          width:'100%'
+          width: "100%",
         }}
       >
         <Typography
@@ -126,15 +130,15 @@ export const HeroSection = () => {
         <Box
           sx={{
             display: "flex",
-            flexDirection:{
-              xs:'column',
-              sm:'row'
+            flexDirection: {
+              xs: "column",
+              sm: "row",
             },
             justifyContent: "center",
             alignItems: "center",
-            gap:{
-              xs:'5px',
-              sm:'15px'
+            gap: {
+              xs: "5px",
+              sm: "15px",
             },
             marginTop: "40px",
           }}
@@ -160,11 +164,11 @@ export const HeroSection = () => {
               fontWeight: 700,
               maxWidth: "478px",
               color: "white",
-              paddingX:'20px',
-              textAlign:{
-                xs:'center',
-                sm:'start'
-              }
+              paddingX: "20px",
+              textAlign: {
+                xs: "center",
+                sm: "start",
+              },
             }}
           >
             $TAN is the native utility token of Tarality and serves as the
@@ -173,6 +177,119 @@ export const HeroSection = () => {
         </Box>
       </Box>
 
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: {
+            xs: "column",
+            md: "row",
+          },
+          justifyContent: "center",
+          alignItems: "center",
+          paddingX:{
+            xs:'20px',
+            lg:'0px'
+          }
+        }}
+      >
+        <Button
+          variant="outlined"
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            zIndex: 1,
+            marginRight: {
+              xs: "0px",
+              md: "-20px",
+            },
+            marginBottom: {
+              xs: "-20px",
+              md: "0px",
+            },
+            padding:{
+              xs:'25px 0px 25px 0px',
+              md:'15px 20px 15px 20px',
+              lg:"15px 0px 15px 0px"
+
+            }
+          }}
+        >
+          <Typography
+            variant="h6"
+            sx={{
+              fontFamily: "Roboto",
+              fontWeight: 600,
+              textTransform: "capitalize",
+            }}
+          >
+            BPoS
+          </Typography>
+          <Typography
+            sx={{
+              textTransform: "none",
+              fontFamily: "Roboto",
+              fontWeight: 400,
+              fontSize: "15px",
+              maxWidth: "478px",
+            }}
+          >
+            Reduces energy consumption, builds scalability, and enhances network
+            security.
+          </Typography>
+        </Button>
+        <Box
+          component="img"
+          src={TanbuttonImag}
+          alt="Sample"
+          sx={{
+            zIndex: "4",
+          }}
+        ></Box>
+        <Button
+          variant="outlined"
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            zIndex: 1,
+            marginLeft: {
+              xs: "0px",
+              md: "-20px",
+            },
+            marginTop: {
+              xs: "-20px",
+              md: "0px",
+            },
+            padding:{
+              xs:'25px 0px 25px 0px',
+              md:'15px 20px 15px 20px',
+              lg:"15px 0px 15px 0px"
+
+            }
+          }}
+        >
+          <Typography
+            variant="h6"
+            sx={{
+              textTransform: "capitalize",
+              fontFamily: "Roboto",
+            }}
+          >
+            Inflation Protection Model
+          </Typography>
+          <Typography
+            sx={{
+              textTransform: "none",
+              fontFamily: "Roboto",
+              fontWeight: 400,
+              fontSize: "15px",
+              maxWidth: "478px",
+            }}
+          >
+            Burn Mechanism consistently reduces token supply. Halving maintains
+            long-term token scarcity and value.
+          </Typography>
+        </Button>
+      </Box>
     </Box>
   );
 };
