@@ -199,10 +199,12 @@ export const HeroSection = () => {
             md: "230px",
             xl: "250px",
           },
+          paddingBottom:'100px'
         }}
       >
         <Button
           variant="outlined"
+          disableElevation
           sx={{
             borderColor: "#E488BD",
             display: "flex",
@@ -220,6 +222,9 @@ export const HeroSection = () => {
               xs: "25px 5px 25px 5px",
               md: "15px 20px 15px 20px",
               lg: "15px 0px 15px 0px",
+            },
+            "& .MuiTouchRipple-root": {
+              color: "lightgray",
             },
           }}
         >
@@ -257,6 +262,7 @@ export const HeroSection = () => {
           }}
         ></Box>
         <Button
+        disableElevation
         
           variant="outlined"
           sx={{
@@ -276,6 +282,9 @@ export const HeroSection = () => {
               xs: "25px 5px 25px 5px",
               md: "15px 20px 15px 20px",
               lg: "15px 0px 15px 0px",
+            },
+            "& .MuiTouchRipple-root": {
+              color: "lightgray",
             },
           }}
         >
