@@ -189,7 +189,8 @@ export const HeroSection = () => {
           paddingX:{
             xs:'20px',
             lg:'0px'
-          }
+          },
+          marginTop:'250px'
         }}
       >
         <Button
