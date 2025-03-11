@@ -286,7 +286,7 @@ export const HeroSection = () => {
             }}
           >
             Burn Mechanism consistently reduces token supply. Halving maintains
-            long-term token scarcity and value.
+            long-term.
           </Typography>
         </Button>
       </Box>
