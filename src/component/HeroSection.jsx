@@ -79,6 +79,7 @@ export const HeroSection = () => {
           justifyContent: "center",
           backgroundColor: " #000000",
           width: "100%",
+          // backgroundColor:'green'
         }}
       >
         <Typography
@@ -186,22 +187,24 @@ export const HeroSection = () => {
           },
           justifyContent: "center",
           alignItems: "center",
+          backgroundColor: "black",
+          // backgroundColor:'white',
           paddingX: {
             xs: "20px",
             lg: "0px",
           },
-          marginTop: {
+          paddingTop: {
             xs: "100px",
             sm: "200px",
             md: "230px",
             xl: "250px",
-           
           },
         }}
       >
         <Button
           variant="outlined"
           sx={{
+            borderColor: "#E488BD",
             display: "flex",
             flexDirection: "column",
             zIndex: 1,
@@ -226,6 +229,7 @@ export const HeroSection = () => {
               fontFamily: "Roboto",
               fontWeight: 600,
               textTransform: "capitalize",
+              color:'white'
             }}
           >
             BPoS
@@ -237,6 +241,7 @@ export const HeroSection = () => {
               fontWeight: 400,
               fontSize: "15px",
               maxWidth: "478px",
+              color:'white'
             }}
           >
             Reduces energy consumption, builds scalability, and enhances network
@@ -252,8 +257,10 @@ export const HeroSection = () => {
           }}
         ></Box>
         <Button
+        
           variant="outlined"
           sx={{
+             borderColor: "#E488BD",
             display: "flex",
             flexDirection: "column",
             zIndex: 1,
@@ -277,6 +284,7 @@ export const HeroSection = () => {
             sx={{
               textTransform: "capitalize",
               fontFamily: "Roboto",
+              color:'white'
             }}
           >
             Inflation Protection Model
@@ -288,6 +296,7 @@ export const HeroSection = () => {
               fontWeight: 400,
               fontSize: "15px",
               maxWidth: "478px",
+              color:'white'
             }}
           >
             Burn Mechanism consistently reduces token supply. Halving maintains
@@ -295,6 +304,8 @@ export const HeroSection = () => {
           </Typography>
         </Button>
       </Box>
+
+
     </Box>
   );
 };
