@@ -207,7 +207,7 @@ export const HeroSection = () => {
               md: "0px",
             },
             padding:{
-              xs:'25px 0px 25px 0px',
+              xs:'25px 5px 25px 5px',
               md:'15px 20px 15px 20px',
               lg:"15px 0px 15px 0px"
 
@@ -260,7 +260,7 @@ export const HeroSection = () => {
               md: "0px",
             },
             padding:{
-              xs:'25px 0px 25px 0px',
+              xs:'25px 5px 25px 5px',
               md:'15px 20px 15px 20px',
               lg:"15px 0px 15px 0px"
 
