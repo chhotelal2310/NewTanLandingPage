@@ -186,11 +186,17 @@ export const HeroSection = () => {
           },
           justifyContent: "center",
           alignItems: "center",
-          paddingX:{
-            xs:'20px',
-            lg:'0px'
+          paddingX: {
+            xs: "20px",
+            lg: "0px",
           },
-          marginTop:'250px'
+          marginTop: {
+            xs: "100px",
+            sm: "200px",
+            md: "230px",
+            xl: "250px",
+           
+          },
         }}
       >
         <Button
@@ -207,12 +213,11 @@ export const HeroSection = () => {
               xs: "-20px",
               md: "0px",
             },
-            padding:{
-              xs:'25px 5px 25px 5px',
-              md:'15px 20px 15px 20px',
-              lg:"15px 0px 15px 0px"
-
-            }
+            padding: {
+              xs: "25px 5px 25px 5px",
+              md: "15px 20px 15px 20px",
+              lg: "15px 0px 15px 0px",
+            },
           }}
         >
           <Typography
@@ -260,12 +265,11 @@ export const HeroSection = () => {
               xs: "-20px",
               md: "0px",
             },
-            padding:{
-              xs:'25px 5px 25px 5px',
-              md:'15px 20px 15px 20px',
-              lg:"15px 0px 15px 0px"
-
-            }
+            padding: {
+              xs: "25px 5px 25px 5px",
+              md: "15px 20px 15px 20px",
+              lg: "15px 0px 15px 0px",
+            },
           }}
         >
           <Typography

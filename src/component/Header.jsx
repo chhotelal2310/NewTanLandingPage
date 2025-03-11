@@ -27,7 +27,8 @@ export const Header = () => {
           },
           alignItems: "center",
           backgroundColor: "#000000",
-          width:'100%'
+          width:'100%',
+          zIndex:10
         }}
       >
         <Box
