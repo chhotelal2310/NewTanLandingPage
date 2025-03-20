@@ -30,7 +30,10 @@ export const BPoS_and_Inflation = () => {
                 color: "white",
                 maxWidth: "719px",
                 fontFamily: "Young Serif",
-                fontSize: "40",
+                fontSize:{
+                  xs:'25px',
+                  md:'40px'
+                },
                 fontWeight: 400,
               }}
             >
